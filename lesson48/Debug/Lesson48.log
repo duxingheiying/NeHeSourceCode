@@ -1,0 +1,8 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  NeHeGL.cpp
+d:\project\opengl教程_nehe_源代码_1-48\lesson48\nehegl.cpp(95): warning C4838: 从“int”转换到“BYTE”需要收缩转换
+  Lesson48.cpp
+  ArcBall.cpp
+  正在生成代码...
+ArcBall.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Lesson48.vcxproj -> D:\Project\OpenGL教程_NeHe_源代码_1-48\lesson48\.\Debug\Lesson48.exe

@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Lesson1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\GWC\AppData\Local\Temp\RSPAA76.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Lesson1.pdb" /debug /machine:I386 /out:"Debug/Lesson1.exe" /pdbtype:sept 
+".\Debug\Lesson1.obj"
+]
+Creating command line "link.exe @C:\Users\GWC\AppData\Local\Temp\RSPAA76.tmp"
+<h3>Output Window</h3>
+Linking...
+Lesson1.obj : error LNK2001: unresolved external symbol _gluPerspective@32
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glMatrixMode@4
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glViewport@16
+Lesson1.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Lesson1.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Lesson1.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glHint@8
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glDepthFunc@4
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glClearDepth@8
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__glClear@4
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__wglDeleteContext@4
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__wglMakeCurrent@8
+Lesson1.obj : error LNK2001: unresolved external symbol __imp__wglCreateContext@4
+Lesson1.obj : error LNK2001: unresolved external symbol ___security_cookie
+Lesson1.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Lesson1.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Lesson1.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+LIBCMTD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/Lesson1.exe : fatal error LNK1120: 22 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Lesson1.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
